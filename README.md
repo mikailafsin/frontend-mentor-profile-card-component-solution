@@ -30,8 +30,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [GitHub]()
-- Live Site URL: [Vercel]()
+- Solution URL: [GitHub](https://github.com/mikailafsin/frontend-mentor-profile-card-component-solution)
+- Live Site URL: [Vercel](https://frontend-mentor-profile-card-component-solution-seven.vercel.app)
 
 ## My process
 
