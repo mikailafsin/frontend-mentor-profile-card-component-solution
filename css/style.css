@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  font-size: 16px;
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 90%;
+  max-width: 350px;
+  margin-inline: auto;
+}
+
+.bg-pattern {
+  position: absolute;
+  z-index: -1;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+@media only screen and (min-width: 1440px) {
+  .bg-pattern {
+    width: auto;
+    height: auto;
+  }
+}
+.bg-pattern--top {
+  top: -20%;
+  left: -65%;
+}
+@media only screen and (min-width: 1440px) {
+  .bg-pattern--top {
+    top: -40%;
+    left: -20%;
+  }
+}
+.bg-pattern--bottom {
+  bottom: -20%;
+  right: -50%;
+}
+@media only screen and (min-width: 1440px) {
+  .bg-pattern--bottom {
+    bottom: -55%;
+    right: -15%;
+  }
+}
+
+.card {
+  border-radius: 1rem;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 25px hsl(227, 10%, 46%);
+          box-shadow: 0 0 25px hsl(227, 10%, 46%);
+}
+.card__user-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.1rem solid hsl(227, 10%, 90%);
+}
+.card__user-img-container {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #fff;
+  margin-top: -50px;
+  margin-bottom: 1rem;
+}
+.card__user-name {
+  font-size: 18px;
+  font-weight: 900;
+  color: hsl(229, 23%, 23%);
+  margin-bottom: 0.5rem;
+}
+.card__user-age {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  margin-left: 0.5rem;
+}
+.card__user-city {
+  font-size: 0.875rem;
+  color: hsl(0, 0%, 59%);
+}
+.card__stat-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #fff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+.card__individual-stat {
+  width: 33.333%;
+}
+.card__stat-value {
+  font-size: 18px;
+  font-weight: 900;
+  color: hsl(229, 23%, 23%);
+  margin-bottom: 0.25rem;
+}
+.card__stat-heading {
+  color: hsl(0, 0%, 59%);
+  font-size: 0.625rem;
+  letter-spacing: 1px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1rem;
+  color: hsl(229, 23%, 23%);
+}
+@media only screen and (min-width: 1440px) {
+  .attribution {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+  }
+}
+.attribution__link {
+  color: hsl(229, 23%, 23%);
+}/*# sourceMappingURL=style.css.map */

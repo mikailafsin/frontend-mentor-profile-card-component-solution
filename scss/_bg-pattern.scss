@@ -1,0 +1,32 @@
+.bg-pattern {
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+
+    @media only screen and (min-width: 1440px) {
+        width: auto;
+        height: auto;
+    }
+
+    &--top {
+        top: -20%;
+        left: -65%;
+
+        @media only screen and (min-width: 1440px) {
+            top: -40%;
+            left: -20%;
+        }
+    }
+
+    &--bottom {
+        bottom: -20%;
+        right: -50%;
+
+        @media only screen and (min-width: 1440px) {
+            bottom: -55%;
+            right: -15%;
+        }
+    }
+}
