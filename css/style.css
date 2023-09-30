@@ -17,7 +17,12 @@ svg {
 
 html {
   font-size: 16px;
-  overflow: hidden;
+  overflow: scroll;
+}
+@media only screen and (min-width: 1440px) {
+  html {
+    overflow: hidden;
+  }
 }
 
 body {
@@ -38,13 +43,19 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   background-color: hsl(185, 75%, 39%);
   min-height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
+}
+@media only screen and (min-width: 1440px) {
+  body {
+    overflow: hidden;
+  }
 }
 
 .container {
   width: 90%;
   max-width: 350px;
   margin-inline: auto;
+  padding-top: 3rem;
 }
 
 .bg-pattern {
